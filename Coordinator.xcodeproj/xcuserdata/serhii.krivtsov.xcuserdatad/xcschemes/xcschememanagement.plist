@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Coordinator.xcscheme</key>
+		<key>Coordinator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +13,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E708B28B1E75D6E700B498AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E708B29F1E75FB2400B498AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
