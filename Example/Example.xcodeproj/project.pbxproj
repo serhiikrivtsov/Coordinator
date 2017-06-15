@@ -11,11 +11,25 @@
 		E708B2C71E75FC2800B498AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E708B2C61E75FC2800B498AF /* Assets.xcassets */; };
 		E708B2CA1E75FC2800B498AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708B2C81E75FC2800B498AF /* LaunchScreen.storyboard */; };
 		E708B2D81E75FD5E00B498AF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708B2D71E75FD5E00B498AF /* AppCoordinator.swift */; };
-		E708B2EA1E7602EC00B498AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708B2E81E7602EC00B498AF /* ViewController.swift */; };
-		E708B2EB1E7602EC00B498AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E708B2E91E7602EC00B498AF /* ViewController.xib */; };
-		E708B2F71E76E4A500B498AF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708B2F61E76E4A500B498AF /* MainCoordinator.swift */; };
-		E708B2FB1E76E4DF00B498AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708B2F91E76E4DF00B498AF /* MainViewController.swift */; };
-		E708B2FC1E76E4DF00B498AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E708B2FA1E76E4DF00B498AF /* MainViewController.xib */; };
+		E72839FF1EF2959100875059 /* FromXibCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72839FE1EF2959100875059 /* FromXibCoordinator.swift */; };
+		E7283A021EF295A900875059 /* FromXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A001EF295A900875059 /* FromXibViewController.swift */; };
+		E7283A031EF295A900875059 /* FromXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A011EF295A900875059 /* FromXibViewController.xib */; };
+		E7283A051EF2976500875059 /* MainTableViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7283A041EF2976500875059 /* MainTableViewStoryboard.storyboard */; };
+		E7283A071EF2986900875059 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A061EF2986900875059 /* MainTableViewController.swift */; };
+		E7283A091EF29BFD00875059 /* FromStoryboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A081EF29BFD00875059 /* FromStoryboardCoordinator.swift */; };
+		E7283A0D1EF29C2500875059 /* FromStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7283A0C1EF29C2500875059 /* FromStoryboard.storyboard */; };
+		E7283A0F1EF29E8D00875059 /* FromStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A0E1EF29E8D00875059 /* FromStoryboardViewController.swift */; };
+		E7283A111EF2A16A00875059 /* UsingNavigationProducerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A101EF2A16A00875059 /* UsingNavigationProducerCoordinator.swift */; };
+		E7283A141EF2A18600875059 /* UsingNavigationProducerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A121EF2A18600875059 /* UsingNavigationProducerViewController.swift */; };
+		E7283A151EF2A18600875059 /* UsingNavigationProducerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A131EF2A18600875059 /* UsingNavigationProducerViewController.xib */; };
+		E7283A171EF2A48700875059 /* ReusedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A161EF2A48700875059 /* ReusedCoordinator.swift */; };
+		E7283A1A1EF2A55300875059 /* ReusedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A181EF2A55200875059 /* ReusedViewController.swift */; };
+		E7283A1B1EF2A55300875059 /* ReusedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A191EF2A55300875059 /* ReusedViewController.xib */; };
+		E7283A1D1EF2A74000875059 /* UsingNavigationDelegateCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A1C1EF2A74000875059 /* UsingNavigationDelegateCoordinator.swift */; };
+		E7283A201EF2A77A00875059 /* UsingNavigationDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A1E1EF2A77A00875059 /* UsingNavigationDelegateViewController.swift */; };
+		E7283A211EF2A77A00875059 /* UsingNavigationDelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A1F1EF2A77A00875059 /* UsingNavigationDelegateViewController.xib */; };
+		E7283A241EF2AFDA00875059 /* MainTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */; };
+		E7283A261EF2B1F900875059 /* ReusedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A251EF2B1F900875059 /* ReusedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +50,25 @@
 		E708B2CB1E75FC2800B498AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E708B2D71E75FD5E00B498AF /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E708B2DF1E75FF6600B498AF /* Coordinator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Coordinator.xcodeproj; path = ../Coordinator.xcodeproj; sourceTree = "<group>"; };
-		E708B2E81E7602EC00B498AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E708B2E91E7602EC00B498AF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		E708B2F61E76E4A500B498AF /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		E708B2F91E76E4DF00B498AF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		E708B2FA1E76E4DF00B498AF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E72839FE1EF2959100875059 /* FromXibCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromXibCoordinator.swift; sourceTree = "<group>"; };
+		E7283A001EF295A900875059 /* FromXibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromXibViewController.swift; sourceTree = "<group>"; };
+		E7283A011EF295A900875059 /* FromXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromXibViewController.xib; sourceTree = "<group>"; };
+		E7283A041EF2976500875059 /* MainTableViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTableViewStoryboard.storyboard; sourceTree = "<group>"; };
+		E7283A061EF2986900875059 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E7283A081EF29BFD00875059 /* FromStoryboardCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromStoryboardCoordinator.swift; sourceTree = "<group>"; };
+		E7283A0C1EF29C2500875059 /* FromStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FromStoryboard.storyboard; sourceTree = "<group>"; };
+		E7283A0E1EF29E8D00875059 /* FromStoryboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromStoryboardViewController.swift; sourceTree = "<group>"; };
+		E7283A101EF2A16A00875059 /* UsingNavigationProducerCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingNavigationProducerCoordinator.swift; sourceTree = "<group>"; };
+		E7283A121EF2A18600875059 /* UsingNavigationProducerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingNavigationProducerViewController.swift; sourceTree = "<group>"; };
+		E7283A131EF2A18600875059 /* UsingNavigationProducerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsingNavigationProducerViewController.xib; sourceTree = "<group>"; };
+		E7283A161EF2A48700875059 /* ReusedCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusedCoordinator.swift; sourceTree = "<group>"; };
+		E7283A181EF2A55200875059 /* ReusedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusedViewController.swift; sourceTree = "<group>"; };
+		E7283A191EF2A55300875059 /* ReusedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReusedViewController.xib; sourceTree = "<group>"; };
+		E7283A1C1EF2A74000875059 /* UsingNavigationDelegateCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingNavigationDelegateCoordinator.swift; sourceTree = "<group>"; };
+		E7283A1E1EF2A77A00875059 /* UsingNavigationDelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingNavigationDelegateViewController.swift; sourceTree = "<group>"; };
+		E7283A1F1EF2A77A00875059 /* UsingNavigationDelegateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsingNavigationDelegateViewController.xib; sourceTree = "<group>"; };
+		E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCoordinator.swift; sourceTree = "<group>"; };
+		E7283A251EF2B1F900875059 /* ReusedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +104,12 @@
 			children = (
 				E708B2BF1E75FC2800B498AF /* AppDelegate.swift */,
 				E708B2D71E75FD5E00B498AF /* AppCoordinator.swift */,
-				E708B2E81E7602EC00B498AF /* ViewController.swift */,
-				E708B2E91E7602EC00B498AF /* ViewController.xib */,
-				E708B2F61E76E4A500B498AF /* MainCoordinator.swift */,
-				E708B2F91E76E4DF00B498AF /* MainViewController.swift */,
-				E708B2FA1E76E4DF00B498AF /* MainViewController.xib */,
+				E7283A221EF2AF8600875059 /* Main */,
+				E72839F51EF293D000875059 /* FromXib */,
+				E72839F31EF293A400875059 /* FromStoryboard */,
+				E72839FA1EF294DE00875059 /* UsingNavigationProducer */,
+				E72839FB1EF2950400875059 /* UsingNavigationDelegate */,
+				E72839F81EF2949500875059 /* Reused */,
 				E708B2E71E76009A00B498AF /* SupportingFiles */,
 			);
 			path = Example;
@@ -102,6 +131,67 @@
 				E708B2CB1E75FC2800B498AF /* Info.plist */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E72839F31EF293A400875059 /* FromStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A081EF29BFD00875059 /* FromStoryboardCoordinator.swift */,
+				E7283A0E1EF29E8D00875059 /* FromStoryboardViewController.swift */,
+				E7283A0C1EF29C2500875059 /* FromStoryboard.storyboard */,
+			);
+			name = FromStoryboard;
+			sourceTree = "<group>";
+		};
+		E72839F51EF293D000875059 /* FromXib */ = {
+			isa = PBXGroup;
+			children = (
+				E72839FE1EF2959100875059 /* FromXibCoordinator.swift */,
+				E7283A001EF295A900875059 /* FromXibViewController.swift */,
+				E7283A011EF295A900875059 /* FromXibViewController.xib */,
+			);
+			name = FromXib;
+			sourceTree = "<group>";
+		};
+		E72839F81EF2949500875059 /* Reused */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A161EF2A48700875059 /* ReusedCoordinator.swift */,
+				E7283A181EF2A55200875059 /* ReusedViewController.swift */,
+				E7283A251EF2B1F900875059 /* ReusedViewModel.swift */,
+				E7283A191EF2A55300875059 /* ReusedViewController.xib */,
+			);
+			name = Reused;
+			sourceTree = "<group>";
+		};
+		E72839FA1EF294DE00875059 /* UsingNavigationProducer */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A101EF2A16A00875059 /* UsingNavigationProducerCoordinator.swift */,
+				E7283A121EF2A18600875059 /* UsingNavigationProducerViewController.swift */,
+				E7283A131EF2A18600875059 /* UsingNavigationProducerViewController.xib */,
+			);
+			name = UsingNavigationProducer;
+			sourceTree = "<group>";
+		};
+		E72839FB1EF2950400875059 /* UsingNavigationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A1C1EF2A74000875059 /* UsingNavigationDelegateCoordinator.swift */,
+				E7283A1E1EF2A77A00875059 /* UsingNavigationDelegateViewController.swift */,
+				E7283A1F1EF2A77A00875059 /* UsingNavigationDelegateViewController.xib */,
+			);
+			name = UsingNavigationDelegate;
+			sourceTree = "<group>";
+		};
+		E7283A221EF2AF8600875059 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */,
+				E7283A041EF2976500875059 /* MainTableViewStoryboard.storyboard */,
+				E7283A061EF2986900875059 /* MainTableViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +270,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7283A051EF2976500875059 /* MainTableViewStoryboard.storyboard in Resources */,
 				E708B2CA1E75FC2800B498AF /* LaunchScreen.storyboard in Resources */,
-				E708B2EB1E7602EC00B498AF /* ViewController.xib in Resources */,
+				E7283A211EF2A77A00875059 /* UsingNavigationDelegateViewController.xib in Resources */,
+				E7283A1B1EF2A55300875059 /* ReusedViewController.xib in Resources */,
+				E7283A031EF295A900875059 /* FromXibViewController.xib in Resources */,
+				E7283A0D1EF29C2500875059 /* FromStoryboard.storyboard in Resources */,
 				E708B2C71E75FC2800B498AF /* Assets.xcassets in Resources */,
-				E708B2FC1E76E4DF00B498AF /* MainViewController.xib in Resources */,
+				E7283A151EF2A18600875059 /* UsingNavigationProducerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,11 +288,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E708B2EA1E7602EC00B498AF /* ViewController.swift in Sources */,
+				E7283A1D1EF2A74000875059 /* UsingNavigationDelegateCoordinator.swift in Sources */,
+				E7283A1A1EF2A55300875059 /* ReusedViewController.swift in Sources */,
+				E7283A261EF2B1F900875059 /* ReusedViewModel.swift in Sources */,
 				E708B2D81E75FD5E00B498AF /* AppCoordinator.swift in Sources */,
-				E708B2FB1E76E4DF00B498AF /* MainViewController.swift in Sources */,
-				E708B2F71E76E4A500B498AF /* MainCoordinator.swift in Sources */,
+				E7283A111EF2A16A00875059 /* UsingNavigationProducerCoordinator.swift in Sources */,
+				E7283A201EF2A77A00875059 /* UsingNavigationDelegateViewController.swift in Sources */,
+				E7283A0F1EF29E8D00875059 /* FromStoryboardViewController.swift in Sources */,
+				E7283A091EF29BFD00875059 /* FromStoryboardCoordinator.swift in Sources */,
+				E72839FF1EF2959100875059 /* FromXibCoordinator.swift in Sources */,
+				E7283A141EF2A18600875059 /* UsingNavigationProducerViewController.swift in Sources */,
+				E7283A021EF295A900875059 /* FromXibViewController.swift in Sources */,
+				E7283A071EF2986900875059 /* MainTableViewController.swift in Sources */,
+				E7283A171EF2A48700875059 /* ReusedCoordinator.swift in Sources */,
 				E708B2C01E75FC2800B498AF /* AppDelegate.swift in Sources */,
+				E7283A241EF2AFDA00875059 /* MainTableViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,33 +8,19 @@
 
 import Coordinator
 
-class AppCoordinator: Coordinator<UIWindow, ViewController> {
+class AppCoordinator: Coordinator<UIWindow, UIViewController> {
     
     // MARK: - Child coordinators
-    
-    lazy var mainCoordinator: MainCoordinator = {
-        return MainCoordinator()
-    }()
+    lazy var mainTableViewCoordinator = MainTableViewCoordinator()
     
     // MARK: - Coordinator overrides
-    
-    override func instantiateController() -> ViewController {
-        let controller = ViewController()
-        controller.navigationHandler = viewControllerNavigationHandler
-        return controller
+    override func instantiateController() -> UIViewController {
+        return UIViewController()
     }
     
-    override func coordinate(root: UIWindow, controller: ViewController) {
+    override func coordinate(root: UIWindow, controller: UIViewController) {
         root.rootViewController = controller
-    }
-}
-
-private extension AppCoordinator { // MARK: Navigation Handlers
-    
-    func viewControllerNavigationHandler(_ action: ViewController.NavigationAction) {
-        switch action {
-        case .enter:
-            mainCoordinator.startWith(root: controller!)
-        }
+        
+        mainTableViewCoordinator.startWith(root: controller)
     }
 }
