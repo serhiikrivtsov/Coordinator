@@ -33,6 +33,7 @@
 		E7283A291EF2B5D600875059 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A281EF2B5D600875059 /* LoginCoordinator.swift */; };
 		E7283A2C1EF2B5E800875059 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A2A1EF2B5E800875059 /* LoginViewController.swift */; };
 		E7283A2D1EF2B5E800875059 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A2B1EF2B5E800875059 /* LoginViewController.xib */; };
+		E7283A2E1EF2BD3F00875059 /* Coordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708B2E41E75FF6600B498AF /* Coordinator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7283A2E1EF2BD3F00875059 /* Coordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
