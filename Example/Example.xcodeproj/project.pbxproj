@@ -30,6 +30,9 @@
 		E7283A211EF2A77A00875059 /* UsingNavigationDelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A1F1EF2A77A00875059 /* UsingNavigationDelegateViewController.xib */; };
 		E7283A241EF2AFDA00875059 /* MainTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */; };
 		E7283A261EF2B1F900875059 /* ReusedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A251EF2B1F900875059 /* ReusedViewModel.swift */; };
+		E7283A291EF2B5D600875059 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A281EF2B5D600875059 /* LoginCoordinator.swift */; };
+		E7283A2C1EF2B5E800875059 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7283A2A1EF2B5E800875059 /* LoginViewController.swift */; };
+		E7283A2D1EF2B5E800875059 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7283A2B1EF2B5E800875059 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		E7283A1F1EF2A77A00875059 /* UsingNavigationDelegateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsingNavigationDelegateViewController.xib; sourceTree = "<group>"; };
 		E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCoordinator.swift; sourceTree = "<group>"; };
 		E7283A251EF2B1F900875059 /* ReusedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusedViewModel.swift; sourceTree = "<group>"; };
+		E7283A281EF2B5D600875059 /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		E7283A2A1EF2B5E800875059 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E7283A2B1EF2B5E800875059 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 			children = (
 				E708B2BF1E75FC2800B498AF /* AppDelegate.swift */,
 				E708B2D71E75FD5E00B498AF /* AppCoordinator.swift */,
+				E7283A271EF2B5C300875059 /* Login */,
 				E7283A221EF2AF8600875059 /* Main */,
 				E72839F51EF293D000875059 /* FromXib */,
 				E72839F31EF293A400875059 /* FromStoryboard */,
@@ -188,10 +195,20 @@
 			isa = PBXGroup;
 			children = (
 				E7283A231EF2AFDA00875059 /* MainTableViewCoordinator.swift */,
-				E7283A041EF2976500875059 /* MainTableViewStoryboard.storyboard */,
 				E7283A061EF2986900875059 /* MainTableViewController.swift */,
+				E7283A041EF2976500875059 /* MainTableViewStoryboard.storyboard */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		E7283A271EF2B5C300875059 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E7283A281EF2B5D600875059 /* LoginCoordinator.swift */,
+				E7283A2A1EF2B5E800875059 /* LoginViewController.swift */,
+				E7283A2B1EF2B5E800875059 /* LoginViewController.xib */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +295,7 @@
 				E7283A0D1EF29C2500875059 /* FromStoryboard.storyboard in Resources */,
 				E708B2C71E75FC2800B498AF /* Assets.xcassets in Resources */,
 				E7283A151EF2A18600875059 /* UsingNavigationProducerViewController.xib in Resources */,
+				E7283A2D1EF2B5E800875059 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +319,9 @@
 				E7283A021EF295A900875059 /* FromXibViewController.swift in Sources */,
 				E7283A071EF2986900875059 /* MainTableViewController.swift in Sources */,
 				E7283A171EF2A48700875059 /* ReusedCoordinator.swift in Sources */,
+				E7283A2C1EF2B5E800875059 /* LoginViewController.swift in Sources */,
 				E708B2C01E75FC2800B498AF /* AppDelegate.swift in Sources */,
+				E7283A291EF2B5D600875059 /* LoginCoordinator.swift in Sources */,
 				E7283A241EF2AFDA00875059 /* MainTableViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

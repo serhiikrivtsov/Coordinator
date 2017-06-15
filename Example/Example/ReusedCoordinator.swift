@@ -23,13 +23,13 @@ class ReusedCoordinator: Coordinator<UIViewController, ReusedViewController>, Na
     }
     
     // MARK: - NavigationProducer
-    var navigationHandler: ((ReusedViewController.NavigationAction) -> Void)?
+    var navigationHandler: ((ReusedViewController.Action) -> Void)?
 }
 
 // MARK: - Navigation handlers
 private extension ReusedCoordinator {
     
-    func handleReusedViewControllerNavigation(_ action: ReusedViewController.NavigationAction) {
+    func handleReusedViewControllerNavigation(_ action: ReusedViewController.Action) {
         controller?.dismiss(animated: true) { self.did(action) }
     }
 }

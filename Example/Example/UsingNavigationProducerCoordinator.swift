@@ -33,7 +33,7 @@ class UsingNavigationProducerCoordinator: Coordinator<UIViewController, UsingNav
 // MARK: - Navigation handlers
 private extension UsingNavigationProducerCoordinator {
     
-    func handleUsingNavigationProducerViewControllerNavigation(_ action: UsingNavigationProducerViewController.NavigationAction) {
+    func handleUsingNavigationProducerViewControllerNavigation(_ action: UsingNavigationProducerViewController.Action) {
         guard let controller = controller else { return }
         
         switch action {

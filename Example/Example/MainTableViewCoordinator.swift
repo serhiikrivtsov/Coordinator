@@ -9,7 +9,7 @@
 import UIKit
 import Coordinator
 
-class MainTableViewCoordinator: Coordinator<UIViewController, MainTableViewController> {
+class MainTableViewCoordinator: Coordinator<UIViewController, MainTableViewController>, NavigationProducer {
     
     // MARK: - Child coordinators
     lazy var fromXibCoordinator = FromXibCoordinator()
@@ -31,14 +31,20 @@ class MainTableViewCoordinator: Coordinator<UIViewController, MainTableViewContr
     
     override func coordinate(root: UIViewController, controller: MainTableViewController) {
         let navigationController = UINavigationController(rootViewController: controller)
-        root.present(navigationController, animated: false)
+        root.present(navigationController, animated: true)
     }
+    
+    // MARK: - NavigationProducer
+    enum NavigationAction {
+        case logout
+    }
+    
+    var navigationHandler: ((NavigationAction) -> Void)?
 }
 
 // MARK: - Navigation handlers
 private extension MainTableViewCoordinator {
-    
-    func handleMainTableViewControllerNavigation(_ action: MainTableViewController.NavigationAction) {
+    func handleMainTableViewControllerNavigation(_ action: MainTableViewController.Action) {
         guard let navigationController = controller?.navigationController else { return }
         
         switch action {
@@ -50,6 +56,10 @@ private extension MainTableViewCoordinator {
             usingNavigationProducerCoordinator.startWith(root: navigationController)
         case .selectUsingNavigationDelegate:
             usingNavigationDelegateCoordinator.startWith(root: navigationController)
+        case .logout:
+            navigationController.dismiss(animated: true) {
+                self.did(.logout)
+            }
         }
     }
 }

@@ -17,6 +17,7 @@ class MainTableViewController: UITableViewController, NavigationProducer {
         case selectFromStoryboard
         case selectUsingNavigationProducer
         case selectUsingNavigationDelegate
+        case logout
     }
         
     var navigationHandler: ((NavigationAction) -> Void)?
@@ -36,5 +37,12 @@ class MainTableViewController: UITableViewController, NavigationProducer {
         default:
             break
         }
+    }
+}
+
+// MARK: - IBActions
+private extension MainTableViewController {
+    @IBAction func logoutAction(_ sender: UIBarButtonItem) {
+        did(.logout)
     }
 }

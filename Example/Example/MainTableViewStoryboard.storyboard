@@ -99,6 +99,14 @@
                             <outlet property="delegate" destination="xle-y6-3g2" id="mK4-RV-NXW"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="mRn-fu-jIa">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="XAj-9i-XUl">
+                            <connections>
+                                <action selector="logoutAction:" destination="xle-y6-3g2" id="tDF-2t-DUB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivo-yv-gUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
